@@ -1,0 +1,315 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+a{
+    text-decoration:none;
+}
+
+.logo{
+    margin-left: 100px;
+}
+ul{
+    list-style: none;
+   
+}
+
+.active{
+    font-weight: bold;
+    
+}
+.a2{
+ font-weight: bold;
+}
+.a3{
+ font-weight: bold;
+}
+.a4{
+ font-weight: bold;
+}
+.ctn{
+    font-weight: bold;
+}
+
+.navbar{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   
+
+}
+.navlinks li{
+    margin: 8px 11px;
+}
+.ctn1{
+    padding: 10px 15px;
+    background:black;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-content: normal;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.header-content{
+    display: flex;
+}
+.m{
+    width:300px ;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;}
+
+
+    .row .col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .aboutf{
+        margin-bottom: 20px;
+        font-size: 50px;
+        margin-left: 150px;
+        color:#4169e1;
+        margin-top: 100px;
+    }
+    .aboutg{
+        margin-bottom:40px;
+        margin-left: 150px;
+    }
+
+    .tours .image-gallery{
+        display: flex;
+
+        width:50%;
+        height: 500px;
+        margin-top: 200px;
+        margin-left: 100px;
+        
+        
+    
+    }
+
+    .ctn3{
+        padding: 10px 15px;
+        background:#fc036b ;
+        border-radius: 30px;
+        color: whitesmoke;
+        margin-left: -300px;
+        margin-bottom: 30px;
+    }
+    .tour1{
+ display: flex;
+ margin-top: 20px;
+ margin-left: 100px;
+ background-color: whitesmoke;
+ border-radius: 10px;
+    }
+
+
+    .img1{
+        margin-left: 100px;
+    }
+.main-block{
+    display: flex;
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+
+ .main-block   .b1{
+
+    width: 700px;
+    height: 400px;
+    background-color:#f8f8ff;
+    margin-left: 150px;
+    margin-right: 100px ;
+    border-radius: 10px;
+   
+
+    }
+    .main-block   .b2{
+
+        width: 700px;
+        height: 400px;
+        background-color:#f8f8ff;
+        margin-left: -50px;
+        margin-right: 100px;
+        border-radius: 10px;
+        
+    
+        }
+.main-block .b1 p{
+    margin-top: 90px;
+    margin-left: 45px;
+    font-size: 20px;
+   
+}
+.main-block .b2 p{
+    margin-top: 90px;
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+.main-block .b1 .p{
+    width: 100px;
+    height: 100px;
+
+   background-color: aqua;
+    border-radius: 50%;
+    margin-left: 250px;
+    margin-top: 45px;
+}
+
+.main-block .b2 .q{
+    width: 100px;
+    height: 100px;
+
+   background-color:aqua;
+    border-radius: 50%;
+    margin-left: 250px;
+    margin-top: 45px;
+}
+
+.main-block .b1 h2{
+    color:#4169e1;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+.main-block .b2 h2{
+    color:#4169e1;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+.main-block .b1 h3{
+margin-left: 200px;
+margin-top: 20px;
+}
+.main-block .b2 h3{
+    margin-left: 200px;
+    margin-top: 20px;
+    
+}
+.tag h3{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 80px;
+    
+}
+
+.sticker  .s1{
+    width: 400px;
+    height: 100px;
+    background-color: #f8f8ff;
+    margin-left: 150px;
+    margin-right:20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.sticker  .s2{
+    width: 400px;
+    height: 100px;
+    background-color: #f8f8ff;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.sticker  .s3{
+    width: 400px;
+    height: 100px;
+    background-color: #f8f8ff;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.sticker{
+    display:flex;
+    margin-bottom: 100px;
+}
+
+.sticker .s1 img{
+    padding-left: 75px;
+    padding-top: 30px;
+}
+.sticker .s2 img{
+    padding-left: 75px;
+    padding-top: 30px;
+}
+.sticker .s3 img{
+    padding-left: 75px;
+    padding-top: 30px;
+}
+
+
+.section3{
+    display: flex;
+    margin-bottom:30px ;
+}
+
+.section3 .left img{
+
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    margin-left: 150px;
+
+}
+
+.section3 .right h1{
+    font-size: 45px;
+    margin-top: 280px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.section3 .right p{
+    margin-left: 100px;
+
+}
+
+
+.section4{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.section4 .right1 img{
+
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    margin-left: 150px;
+
+}
+.section4 .left1 h1{
+    font-size: 45px;
+    margin-top: 280px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.section4 .left1 p{
+    margin-left: 100px;
+
+}
