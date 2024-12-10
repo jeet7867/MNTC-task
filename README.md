@@ -1,1 +1,1 @@
-# MNTC-task
+# Frontend Mentor clone
